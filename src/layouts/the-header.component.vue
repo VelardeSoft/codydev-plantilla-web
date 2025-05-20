@@ -11,20 +11,23 @@
       <RouterLink to="/login">
         <pv-button label="Check-In" />
       </RouterLink>
+      <h2>{{ t('navbar.title') }}</h2>
     </div>
     <div class="right">
-      <a href="#">
-        <pv-button label="ES" />
-      </a>
-      <a href="#">
-        <pv-button label="EN" />
-      </a>
+      <pv-button label="ES" @click="changeLocale('es')" />
+      <pv-button label="EN" @click="changeLocale('en')" />
     </div>
   </header>
 </template>
 
 <script setup>
-// import { RouterLink } from 'vue-router'
+import { useI18n } from 'vue-i18n';
+
+const { locale, t } = useI18n();
+
+function changeLocale(lang) {
+  locale.value = lang;
+}
 </script>
 
 <style scoped>
