@@ -1,6 +1,7 @@
-<script setup>
-</script>
-
 <template>
-  <router-view />
+  <MainDev />
 </template>
+
+<script setup>
+import MainDev from './layouts/main-layouts.component.vue'
+</script>
