@@ -4,7 +4,6 @@
     <div class="main-content">
       <router-view></router-view>
     </div>
-    <!--<the-footer />-->
   </div>
 </template>
 

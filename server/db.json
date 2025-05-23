@@ -1,0 +1,219 @@
+{
+  "stores": [
+    {
+      "id": "1",
+      "name": "Sede Central",
+      "description": "Oficina Sede Central",
+      "address": "San Isidro",
+      "schedule": [
+        "07:00",
+        "23:00"
+      ],
+      "openedAt": "2024-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "San Borja",
+      "description": "Clinica Internacional San Borja",
+      "address": "Av. Guardia Civil",
+      "schedule": [
+        "08:00",
+        "20:00"
+      ],
+      "openedAt": "2024-10-02T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "San Isidro",
+      "description": "Clinica Internacional San Isidro",
+      "address": "Av. Begonias",
+      "schedule": [
+        "08:30",
+        "20:30"
+      ],
+      "openedAt": "2024-10-03T00:00:00.000Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "storeId": 1,
+      "products": 0,
+      "amount": 0,
+      "payedAt": "2024-10-03T01:17:45.657Z"
+    },
+    {
+      "id": "2",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "storeId": 1,
+      "products": 13,
+      "amount": 200,
+      "payedAt": "2025-05-21T01:52:24.882Z"
+    },
+    {
+      "id": "3",
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "storeId": 2,
+      "products": 11,
+      "amount": 150,
+      "payedAt": "2024-10-03T01:19:35.088Z"
+    },
+    {
+      "id": "4",
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "storeId": 2,
+      "products": 20,
+      "amount": 180,
+      "payedAt": "2024-10-03T01:19:52.316Z"
+    },
+    {
+      "id": "5",
+      "firstName": "Charlie",
+      "lastName": "Brown",
+      "storeId": 3,
+      "products": 7,
+      "amount": 210,
+      "payedAt": "2024-10-03T00:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "firstName": "Daisy",
+      "lastName": "Brown",
+      "storeId": 3,
+      "products": 9,
+      "amount": 120,
+      "payedAt": null
+    },
+    {
+      "id": "7",
+      "firstName": "Eve",
+      "lastName": "Johnson",
+      "storeId": 3,
+      "products": 10,
+      "amount": 130,
+      "payedAt": null
+    },
+    {
+      "id": "8",
+      "firstName": "Frank",
+      "lastName": "Johnson",
+      "storeId": 3,
+      "products": 12,
+      "amount": 150,
+      "payedAt": "2024-10-03T02:27:53.721Z"
+    },
+    {
+      "id": "9",
+      "firstName": "Grace",
+      "lastName": "Williams",
+      "storeId": 3,
+      "products": 7,
+      "amount": 110,
+      "payedAt": null
+    },
+    {
+      "id": "10",
+      "firstName": "Harry",
+      "lastName": "Williams",
+      "storeId": 1,
+      "products": 12,
+      "amount": 140,
+      "payedAt": null
+    },
+    {
+      "id": "11",
+      "firstName": "Ivy",
+      "lastName": "Brown",
+      "storeId": 2,
+      "products": 8,
+      "amount": 110,
+      "payedAt": null
+    },
+    {
+      "id": "12",
+      "firstName": "Jack",
+      "lastName": "Brown",
+      "storeId": 1,
+      "products": 0,
+      "amount": 0,
+      "payedAt": "2025-05-23T07:01:56.811Z"
+    },
+    {
+      "id": "13",
+      "firstName": "Kelly",
+      "lastName": "Johnson",
+      "storeId": 1,
+      "products": 0,
+      "amount": 0,
+      "payedAt": null
+    },
+    {
+      "id": "14",
+      "firstName": "Liam",
+      "lastName": "Williams",
+      "storeId": 2,
+      "products": 10,
+      "amount": 120,
+      "payedAt": null
+    },
+    {
+      "id": "15",
+      "firstName": "Mia",
+      "lastName": "Brown",
+      "storeId": 5,
+      "products": 10,
+      "amount": 135,
+      "payedAt": null
+    },
+    {
+      "id": "16",
+      "firstName": "Noah",
+      "lastName": "Johnson",
+      "storeId": 1,
+      "products": 7,
+      "amount": 150,
+      "payedAt": null
+    },
+    {
+      "id": "17",
+      "firstName": "Olivia",
+      "lastName": "Williams",
+      "storeId": 2,
+      "products": 0,
+      "amount": 0,
+      "payedAt": null
+    },
+    {
+      "id": "18",
+      "firstName": "Peter",
+      "lastName": "Brown",
+      "storeId": 1,
+      "products": 12,
+      "amount": 120,
+      "payedAt": null
+    },
+    {
+      "id": "19",
+      "firstName": "Quinn",
+      "lastName": "Johnson",
+      "storeId": 3,
+      "products": 11,
+      "amount": 100,
+      "payedAt": null
+    },
+    {
+      "id": "20",
+      "firstName": "Rose",
+      "lastName": "Williams",
+      "storeId": 2,
+      "products": 10,
+      "amount": 120,
+      "payedAt": "2024-10-02T00:00:00.000Z"
+    }
+  ]
+}

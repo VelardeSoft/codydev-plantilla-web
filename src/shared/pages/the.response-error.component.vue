@@ -3,12 +3,24 @@
     <div class="content">
       <h1>404</h1>
       <h2>Oops! Ruta no encontrada</h2>
+      <p>No se encontró la ruta: <code>{{ currentPath }}</code></p>
       <RouterLink to="/">
         <pv-button label="Volver al inicio" />
       </RouterLink>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "PageNotFound",
+  computed: {
+    currentPath() {
+      return this.$route.fullPath;
+    }
+  }
+};
+</script>
 
 <style scoped>
 .not-found {
@@ -35,5 +47,17 @@ h2 {
   font-size: 2rem;
   margin: 0.5em 0 1em;
   font-weight: 600;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5em;
+}
+
+code {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  font-family: monospace;
 }
 </style>

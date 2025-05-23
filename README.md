@@ -1,5 +1,18 @@
-# Vue 3 + Vite
+# EXAMEN PARCIAL
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Mi nombre es: Néstor Hernán Velarde Gonzales - U20211c221
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+# Herramientas usadas durante el EP
+- WebStorm 
+
+# Materiales
+- PrimeVue
+- Axios
+- i18n
+- json-server
+- vue-route
+
+# Demo de la solucion
+
+
+![Image](https://github.com/user-attachments/assets/52755d46-0cd0-43b6-a03c-8d6bddf375f2)

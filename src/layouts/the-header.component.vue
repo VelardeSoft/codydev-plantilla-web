@@ -1,17 +1,16 @@
 <template>
   <header class="header">
     <div class="left">
-      <img src="https://img.logo.dev/eventify.io?token=pk_A-WHp95fSMu2y8CkFljF2g&retina=true" alt="logo de la aplicacion">
-      <h2>ISO 27001:2022 certified</h2>
+      <img src="https://img.logo.dev/tambo.pe?token=pk_A-WHp95fSMu2y8CkFljF2g&retina=true" alt="logo de Tambo">
+      <h2>{{ t('navbar.title') }}</h2>
     </div>
     <div class="center">
       <RouterLink to="/">
         <pv-button label="Home" />
       </RouterLink>
-      <RouterLink to="/login">
-        <pv-button label="Check-In" />
+      <RouterLink to="/commerce/store-sales/new">
+        <pv-button label="Sales" />
       </RouterLink>
-      <h2>{{ t('navbar.title') }}</h2>
     </div>
     <div class="right">
       <pv-button label="ES" @click="changeLocale('es')" />
